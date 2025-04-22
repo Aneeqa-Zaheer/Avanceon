@@ -5,6 +5,9 @@
     --dark: #0E2E50;
 }
 
+body {
+    overflow-x: hidden;
+}
 
 /*** Spinner ***/
 #spinner {
@@ -112,7 +115,7 @@
     /* max-height: 60px; */
     transition: .5s;
     width: 40%;
-    margin-left: 10%;
+    /* margin-left: 10%; */
 }
 
 .sticky-top.navbar .navbar-brand img {
